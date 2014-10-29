@@ -1,7 +1,8 @@
 import blackjack
-from pylab import *
-from numpy import *
 
+from numpy import *
+from random import *
+from scipy import *
 numEpisodes = 20
 
 
@@ -13,7 +14,7 @@ def showOneGame():
         a=moves[turn]
         r,sp=blackjack.sample(s,a)
         print("turn %d: s %d a %d -> r %d sp %d "%(turn,s,a,r,sp),end="")
-        print("\t Player Sum: %d  Dealer Card: %d  Usable Ace: %d"%(blackjack.playerSum,blackjack.dealerCard, blackjack.usableAce)) 
+        print("\t Player Sum: %d  Dealer Card: %d  Usable Ace: %d"%(blackjack.playerSum,blackjack.dealerCard, blackjack.usableAce))
         s=sp
         turn+=1
     return None
@@ -22,7 +23,7 @@ def showOneGame():
 returnSum = 0.0
 for episodeNum in range(numEpisodes):
     G = 0
-    ...
+    showOneGame()
     print("Episode: ", episodeNum, "Return: ", G)
     returnSum = returnSum + G
 print("Average return: ", returnSum/numEpisodes)
