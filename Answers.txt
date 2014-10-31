@@ -1,0 +1,30 @@
+Average return while learning:  -0.066238
+
+Learned Policy:
+ Usable Ace:
+S S H S S S S S S S 20
+H S S H H H S S S S 19
+S H S H H S S S H H 18
+S H H H H H H H H H 17
+H H H H H H H H H H 16
+H H H H H H H H H H 15
+H H H H H H H H H H 14
+H H H H H H H H H H 13
+H H H H H H H H H H 12
+1 2 3 4 5 6 7 8 9 10 
+
+ No Usable Ace:
+S S S S S S S S S S 20
+S S S S S S S S S S 19
+S S S S S S S S S S 18
+S S S S S S S S S S 17
+S S S S S S S S S S 16
+S S S S S S S S H S 15
+H S S S S S H H S H 14
+H S S S S S H H H H 13
+H S S S S S H S H H 12
+1 2 3 4 5 6 7 8 9 10 
+
+Average learned deterministic policy return:  -0.040728
+
+3. First run the q learning algorithm and stop the learning
