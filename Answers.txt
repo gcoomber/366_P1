@@ -28,3 +28,13 @@ H S S S S S H S H H 12
 Average learned deterministic policy return:  -0.040728
 
 3. First run the q learning algorithm and stop the learning
+
+On runs of 1 000 000, with epsilon and alpha step sizes of 0.1:
+	best alpha = 0.1
+	best epsilon = 0.4
+	average return of -0.050578
+
+On runs of 10 000, with epsilon and alpha step sizes of 0.01:
+	best alpha = 0.07, 0.01
+	best epsilon = 0.76, 0.79
+	average return of -.0207, -0.0227
