@@ -58,5 +58,6 @@ Epsilon:  0.3130
 
 Alpha:  0.01
 increment epsilon by 0.0005
+50000 episodes per epsilon value
 Return:  -0.02738
 Epsilon:  0.3185
